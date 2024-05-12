@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+
+.box1 {
+    height: 85vh;
+    width: 25vw;
+    background-color: rgb(33, 30, 30);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-left: 37vw;
+    margin-top: 10vh;
+    border-radius: 10px;
+}
+
+.img img {
+    border-radius: 50%;
+}
+
+.img {
+    align-self: baseline;
+    margin: 4vh 0 0 7vw;
+}
+
+.text {
+    height: 6vh;
+    width: 20vw;
+    color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+
+}
+
+h3 {
+    font-family: sans-serif;
+    margin-bottom: 1vh;
+}
+
+p span {
+    font-weight: 200;
+    color: rgb(184, 253, 80);
+
+
+}
+
+.text1 {
+    height: 5vh;
+    width: 20vw;
+    color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 1vh; */
+
+
+}
+
+p {
+    font-weight: 200;
+    color: rgb(229, 224, 224);
+}
+
+.linkbox {
+    height: 40vh;
+    width: 20vw;
+
+}
+
+.git {
+    height: 6vh;
+    width: 20vw;
+    margin-bottom: 2vh;
+    border-radius: 10px;
+    background-color: rgb(64, 63, 63);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2vh;
+}
+
+/* --------------responsive-------------- */
+
+@media (min-width:300px) and (max-width:400px) {
+    .box1 {
+        height: 110vh;
+        width: 88vw;
+        margin-left: 6vw;
+        margin-top: 10vh;
+    }
+
+    .img {
+
+        margin: 4vh 0 0 25vw;
+    }
+
+    .text {
+        height: 6vh;
+        width: 75vw;
+    }
+
+    h3 {
+        font-size: 30px;
+        font-family: sans-serif;
+        margin-left: 4vw;
+        font-weight: 500;
+    }
+
+    p span {
+        font-family: sans-serif;
+        font-size: 15px;
+        margin-left: 6vw;
+    }
+
+    .text1 {
+        height: 5vh;
+        width: 80vw;
+        margin-top: 5vh;
+    }
+
+
+    .linkbox {
+        height: 60vh;
+        width: 80vw;
+
+    }
+
+    .git {
+        height: 9vh;
+        width: 80vw;
+        margin-bottom: 3vh;
+        border-radius: 6px;
+    }
+
+    a {
+        padding-top: 3vh;
+    }
+}
+
+
+@media (min-width:401px) and (max-width:766px) {
+    .box1 {
+        height: 102vh;
+        width: 80vw;
+        margin-left: 10vw;
+
+    }
+
+    .img {
+
+        margin: 4vh 0 0 27vw;
+    }
+
+    .text {
+        height: 6vh;
+        width: 75vw;
+    }
+
+    h3 {
+        font-size: 30px;
+        font-family: sans-serif;
+        margin-left: 4vw;
+        font-weight: 500;
+    }
+
+    p span {
+        font-family: sans-serif;
+        font-size: 15px;
+        margin-left: 6vw;
+
+    }
+
+    .text1 {
+        height: 5vh;
+        width: 80vw;
+        margin-top: 6vh;
+        margin-bottom: 2vh;
+
+    }
+
+
+    .linkbox {
+        height: 60vh;
+        width: 75vw;
+        margin-left: 2vw;
+
+    }
+
+    .git {
+        height: 9vh;
+        width: 75vw;
+        margin-bottom: 3vh;
+        border-radius: 6px;
+    }
+
+    a {
+        padding-top: 3vh;
+    }
+}
