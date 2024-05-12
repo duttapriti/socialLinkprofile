@@ -26,7 +26,7 @@ body {
 
 .img {
     align-self: baseline;
-    margin: 4vh 0 0 7vw;
+    margin: 4vh 0 0 6.5vw;
 }
 
 .text {
@@ -43,6 +43,8 @@ body {
 h3 {
     font-family: sans-serif;
     margin-bottom: 1vh;
+    margin-left: 1vw;
+    font-size: 23px;
 }
 
 p span {
